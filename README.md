@@ -39,7 +39,6 @@ This project demonstrates deploying an Amazon Prime clone using a set of DevOps 
      function prompt {"$PWD > "}
      function prompt {$(Get-Location -Leaf) + " > "}
      ```
-   - Open `terraform_code/ec2_server/main.tf` in VS Code.
    - Run the following commands:
      ```bash
      aws configure
